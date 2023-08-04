@@ -91,8 +91,6 @@ public class TransactionPropagationExampleImpJtalTest {
 		transactionPropagationExample.notransaction_exception_required_required();
 	}
 	
-	//TODO
-
 	/**
 	 * 结果：张三（插入），李四（未插入）</br>
 	 * 外围方法没有事务，插入“张三”、“李四”方法都在自己的事务中独立运行,所以插入“李四”方法抛出异常只会回滚插入“李四”方法，插入“张三”
