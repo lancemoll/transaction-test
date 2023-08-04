@@ -13,6 +13,4 @@ bin/
 *.iml
 *.log
 *.gz
-.ignore
 .vscode
-*.vscode
